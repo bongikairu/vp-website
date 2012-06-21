@@ -4,6 +4,7 @@ body {
 	font-family: 'Gentium Basic', 'Times New Roman', serif;
 	font-size: 20px;
 	background-color: #ECE5D5;
+	background-image: url(background.jpg);
 }
 .container {
 	width: 1270px;
