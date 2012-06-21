@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic|Cardo);
+
+body {
+	font-family: 'Gentium Basic', 'Times New Roman', serif;
+	font-size: 20px;
+	background-color: #ECE5D5;
+}
+.container {
+	width: 1270px;
+}
+#pagewrapper {
+	margin-top: 200px;
+}
+
+#leftcol {
+	min-height: 400px;
+}
+#rcol-about {
+	text-shadow: 1px 1px white;
+}
+
+#word {
+	font-size: 36px;
+	font-weight: bold;
+}
+#word .sound {
+	font-family: 'Cardo', 'Times New Roman', serif;
+	font-weight: normal;
+}
+#example {
+	font-style: italic;
+}
+#example .vp {
+	font-weight: bold;
+}
+
+#menu {
+	margin-top: 50px;
+}
+#menu ul {
+	padding: 0;
+}
+#menu ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 15px;
+}
+#menu ul li a {
+	font-size: 18px;
+	font-family: 'Gentium Basic', 'Times New Roman', serif;
+	text-decoration: none;
+	font-variant: small-caps;
+	color: black;
+}
+#menu ul li a.active {
+	font-weight: bold;
+}
+#menu ul li a:hover {
+	text-decoration: underline;
+}
