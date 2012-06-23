@@ -3,11 +3,13 @@
 body {
 	font-family: 'Gentium Basic', 'Times New Roman', serif;
 	font-size: 20px;
-	background: #D7A13D url(4.jpg) repeat scroll left top;
-	color: #c5c5c5;
+	background: url(bgred.png) repeat-y scroll right -75px, url(bgbtf.jpg) repeat scroll right top;
+	background-color: #220000;
+	color: #DDA642;
 }
 .container {
 	width: 1270px;
+	margin-right: 0;
 }
 #pagewrapper {
 	margin-top: 200px;
@@ -20,7 +22,8 @@ body {
 	text-shadow: 1px 1px #2C0001;/*, 0 0 10px #fff;*/
 }
 #rcol-about h1 {
-	color: #2C0001;
+	color: #DDA642;
+	color: #fff;
 }
 
 #word {
@@ -36,6 +39,7 @@ body {
 }
 #example .vp {
 	font-weight: bold;
+	color: #fff;
 }
 
 #menu {
@@ -54,8 +58,8 @@ body {
 	font-family: 'Gentium Basic', 'Times New Roman', serif;
 	text-decoration: none;
 	font-variant: small-caps;
-	color: #2c0001;
-	text-shadow: 1px 1px #A46D2A;
+	color: #DDA642;
+	text-shadow: 1px 1px #000;
 }
 #menu ul li a.active {
 	font-weight: bold;

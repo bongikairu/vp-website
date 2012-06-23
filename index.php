@@ -12,18 +12,30 @@
 		<link href='assets/style.css' rel='stylesheet' type='text/css'>
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+		<script>
+			/* var pos = -75;
+			function movebg() {
+				pos--;
+				$('body').css('background-position','100% '+pos+'px, 100% 0%');
+				//setTimeout(movebg,100);
+			}
+			$(document).ready(function() {
+				movebg();
+				setInterval(movebg,100);
+			}); */
+		</script>
 	</head>
 	<body>
 		<div id="pagewrapper" class="container">
-			<div id="leftcol" class="span-16 append-2">
+			<div id="leftcol" class="span-15 append-2">
 				&nbsp;
 			</div>
-			<div id="rcol-about" class="span-14 last">
+			<div id="rcol-about" class="span-14 append-1 last">
 				<h1 id="word">vintage <span class="sound">/ˈvɪn.tɪdʒ/</span></h1>
 				<p>(adj) from the time that is glorious, of great quality with memories, of retrospect fashion while proper to the present:</p>
 				<p id="example"><span class="vp">Vintage Penguin Interactive</span> is a company specialized in making the best application.</p>
 			</div>
-			<div id="menu" class="span-14 last">
+			<div id="menu" class="span-14 append-1 last">
 				<ul>
 					<li><a href="index.php" class="active">About Us</a></li>
 					<li><a href="index.php">Products</a></li>
