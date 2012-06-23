@@ -3,8 +3,8 @@
 body {
 	font-family: 'Gentium Basic', 'Times New Roman', serif;
 	font-size: 20px;
-	background: #ECE5D5 url(8.jpg) repeat scroll;
-	color: #ffe1c0;
+	background: #D7A13D url(4.jpg) repeat scroll left top;
+	color: #c5c5c5;
 }
 .container {
 	width: 1270px;
@@ -17,10 +17,10 @@ body {
 	min-height: 400px;
 }
 #rcol-about {
-	text-shadow: 1px 1px black;
+	text-shadow: 1px 1px #2C0001;/*, 0 0 10px #fff;*/
 }
 #rcol-about h1 {
-	color: #ffead9;
+	color: #2C0001;
 }
 
 #word {
@@ -54,7 +54,8 @@ body {
 	font-family: 'Gentium Basic', 'Times New Roman', serif;
 	text-decoration: none;
 	font-variant: small-caps;
-	color: #ffe1c0;
+	color: #2c0001;
+	text-shadow: 1px 1px #A46D2A;
 }
 #menu ul li a.active {
 	font-weight: bold;
